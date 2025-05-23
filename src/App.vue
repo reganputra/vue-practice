@@ -1,12 +1,15 @@
 <script setup>
 import {ref} from "vue";
-
-
+import NavBar from "@/components/navbar/NavBar.vue";
+import Hero from "@/components/navbar/Hero.vue";
+import HomeCard from "@/components/card/HomeCard.vue";
 
 </script>
 
 <template>
-<h1 class="text-2xl">Vue Jobs</h1>
+  <NavBar/>
+  <Hero />
+  <HomeCard />
 </template>
 
 
